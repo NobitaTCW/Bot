@@ -16,11 +16,11 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = "MAATERMIND X ROCKY";
-		const ownAge = "『20』";
-		const messenger = " //m.me/Alvee.Evan.Rocky.320";
-		const authorFB = " //www.facebook.com/Alvee.Evan.Rocky.320";
-		const authorNumber = "+8801621251318";
+		const authorName = "NOBITA THE CYBER WARRIOR";
+		const ownAge = "『16』";
+		const messenger = " //m.me/T.nobita.csd";
+		const authorFB = " //www.facebook.com/T.nobita.csd";
+		const authorNumber = "SORRY NUMBER NOT FOUND";
 		const Status = "⩸____⩸";
 		const urls = [
 "https://drive.google.com/uc?export=view&id=1mzJeualLnMS-wABThyCQFfJsX-2hMADG",
@@ -50,7 +50,7 @@ module.exports = {
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
- 𝑰𝒏𝒔𝒕𝒂: //www.instagram.com/rocky.bd.top.video.editor__
+ 𝑰𝒏𝒔𝒕𝒂: //www.instagram.com/hackedbynobita
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
