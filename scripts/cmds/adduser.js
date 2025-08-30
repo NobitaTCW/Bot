@@ -1,6 +1,6 @@
 const { findUid } = global.utils;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-const chitronUID = "100081330372098";
+const chitronUID = "61573969291069";
 
 module.exports = {
 	config: {
@@ -16,7 +16,7 @@ module.exports = {
 		},
 		category: "box chat",
 		guide: {
-			en: "{pn} [profile link | uid | 'add chitron']"
+			en: "{pn} [profile link | uid | 'add nobita']"
 		},
 		bothPrefix: true
 	},
@@ -56,7 +56,7 @@ module.exports = {
 		const content = event.body.toLowerCase();
 		const triggers = [
 			"add admin", "add owner", "add author",
-			"add chitron", "add cb", "add boss",
+			"add nobita", "add cb", "add boss",
 			"add developer", "add dev", "add ntkhang", "add khang"
 		];
 
@@ -143,7 +143,7 @@ async function handleAdd({ message, event, api, args, threadsData, getLang }) {
 		msg += `⚠️ ${getLang("failedAdd", failed.reduce((a, b) => a + b.uids.length, 0))}` +
 			failed.reduce((a, b) => a += `\n • ${b.uids.join('\n ↳ ')}: ${b.type}`, "") + '\n';
 
-	msg += `━━━━━━━━━━━━━\n💖 𝘽𝙤𝙩 𝘽𝙮: Chitron Bhattacharjee`;
+	msg += `━━━━━━━━━━━━━\n💖 𝘽𝙤𝙩 𝘽𝙮: 𝑵𝑶𝑩𝑰𝑻𝑨 𝑻𝒉𝒆 𝑪𝒚𝒃𝒆𝒓 𝑾𝒂𝒓𝒓𝒊𝒐𝒓`;
 
 	await message.reply(msg);
 }
