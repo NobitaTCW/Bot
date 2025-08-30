@@ -86,7 +86,7 @@ module.exports = {
 👶 𝗕𝗮𝗯𝘆 𝗧𝗲𝗮𝗰𝗵: ${babyTeach}
 ╰─────────────╯
 
-✨ 𝘉𝘰𝘵 𝘣𝘺: 𝘊𝘩𝘪𝘵𝘳𝘰𝘯 𝘉𝘩𝘢𝘵𝘵𝘢𝘤𝘩𝘢𝘳𝘫𝘦𝘦 ✨`.trim();
+✨ 𝘉𝘰𝘵 𝘣𝘺: 𝐍𝐎𝐁𝐈𝐓𝐀 ✨`.trim();
 
  // Generate banner via Popcat API
  const bannerUrl = `https://api.popcat.xyz/welcomecard` +
@@ -96,8 +96,8 @@ module.exports = {
  `&background=${encodeURIComponent("https://shipu.c0m.in/banner.png")}` +
  `&color=${randomColor()}` +
  `&text1=${encodeURIComponent(user.name)}` +
- `&text2=${encodeURIComponent("API Owner—")}` +
- `&text3=${encodeURIComponent("Chitron Bhattacharjee")}`;
+ `&text2=${encodeURIComponent("Owner—")}` +
+ `&text3=${encodeURIComponent("𝑵𝑶𝑩𝑰𝑻𝑨 𝑻𝒉𝒆 𝑪𝒚𝒃𝒆𝒓 𝑾𝒂𝒓𝒓𝒊𝒐𝒓")}`;
 
  return message.reply({
  body: info,
