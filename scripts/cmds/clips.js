@@ -57,7 +57,7 @@ module.exports = {
 
  const allImages = await Promise.all(attachments);
  return message.reply({
- body: text + "\n📩 𝗥𝗲𝗽𝗹𝘆 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗡𝗼. (1-20) 𝘁𝗼 𝗴𝗲𝘁 𝗳𝘂𝗹𝗹 𝘃𝗶𝗱𝗲𝗼.\n👑 𝗔𝗣𝗜 𝗢𝘄𝗻𝗲𝗿: Chitron Bhattacharjee",
+ body: text + "\n📩 𝗥𝗲𝗽𝗹𝘆 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗩𝗶𝗱𝗲𝗼 𝗡𝗼. (1-20) 𝘁𝗼 𝗴𝗲𝘁 𝗳𝘂𝗹𝗹 𝘃𝗶𝗱𝗲𝗼.\n👑 𝗔𝗣𝗜 𝗢𝘄𝗻𝗲𝗿: NOBITA",
  attachment: allImages
  }, (err, info) => {
  global.GoatBot.onReply.set(info.messageID, {
@@ -90,7 +90,7 @@ module.exports = {
  });
  });
 
- const caption = `🎬 *${video.user?.name || "Untitled"}*\n⏱ *Duration:* ${video.duration}s\n📎 *Size:* ${Math.round(video.video_files[0].file_size / 1024)} KB\n🔗 *URL:* ${video.url}\n\n👑 *Powered by Chitron Bhattacharjee*`;
+ const caption = `🎬 *${video.user?.name || "Untitled"}*\n⏱ *Duration:* ${video.duration}s\n📎 *Size:* ${Math.round(video.video_files[0].file_size / 1024)} KB\n🔗 *URL:* ${video.url}\n\n👑 *Powered by NOBITA*`;
 
  return message.reply({
  body: caption,
